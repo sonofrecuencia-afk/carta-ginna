@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una carta para ti | Sonofrecuencia</title>
+    <!-- Fuentes de Google: Optima o similar para títulos, sans-serif limpia para texto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            /* Colores extraídos de la web de Sonofrecuencia */
+            --bg-color: #1a3329; /* Verde oscuro del fondo */
+            --text-main: #f0f0f0; /* Blanco hueso para texto legible */
+            --accent-gold: #d8c39b; /* Tono arena/dorado suave para títulos y detalles */
+            --card-bg: rgba(26, 51, 41, 0.85); /* Fondo semitransparente oscuro */
+            --border-color: rgba(216, 195, 155, 0.3); /* Borde sutil dorado */
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.8;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            padding: 2rem;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Usamos una imagen de marcador de posición para el logo, 
+           asumiendo que está en blanco. Puedes cambiar el 'src' por tu logo real */
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-img {
+            height: 50px; /* Ajusta según el tamaño de tu logo */
+            width: auto;
+        }
+
+        .logo-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: #ffffff;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        
+        .logo-sub {
+             font-family: 'Lato', sans-serif;
+             font-size: 0.7rem;
+             letter-spacing: 1px;
+             color: #a0a0a0;
+             display: block;
+        }
+
+        .letter-container {
+            max-width: 700px;
+            width: 90%;
+            margin: 2rem auto 4rem auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 3rem 4rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            color: var(--accent-gold);
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            font-weight: 300;
+            text-align: justify;
+        }
+
+        .highlight {
+            color: var(--accent-gold);
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        .signature {
+            margin-top: 4rem;
+            text-align: right;
+        }
+
+        .signature p {
+            margin-bottom: 0.2rem;
+            text-align: right;
+        }
+
+        .signature-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: var(--accent-gold);
+            font-style: italic;
+        }
+
+        @media (max-width: 600px) {
+            .letter-container {
+                padding: 2rem 1.5rem;
+            }
+            p {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <!-- Si tienes el logo blanco en SVG o PNG transparente, colócalo aquí -->
+            <!-- <img src="ruta-a-tu-logo-blanco.png" alt="Logo Sonofrecuencia" class="logo-img"> -->
+            <div>
+                <span class="logo-text">SONOFRECUENCIA</span>
+                <span class="logo-sub">Musicoterapia Vibroacústica</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="letter-container">
+        <h1>Querida Ginna,</h1>
+
+        <p>Te entrego estas palabras para que las lleves contigo mañana. Hoy limpiamos el ruido y recordamos una verdad fundamental: ninguna decisión de un tribunal, ni ninguna casa de ladrillo, definen quién eres o tu capacidad de estar en paz.</p>
+
+        <p>Es completamente válido que ames tu hogar de siempre y que te duela la posibilidad de que algo cambie. Pero recuerda la inscripción del anillo: <span class="highlight">"Esto también pasará"</span>. Si te quedas en tu casa, esa alegría pasará y la vida traerá nuevos retos. Si te toca venderla y entregar esa parte, ese dolor también pasará, y la vida te abrirá espacio para construir un nuevo hogar, tal vez más ligero y libre de conflictos familiares.</p>
+
+        <p>No luches contra la corriente mañana. Observa lo que sucede en esa sala desde tu propio centro, como una testigo tranquila. Tienes el derecho de defender lo tuyo, pero hazlo desde la claridad, no desde la desesperación. Acepta el presente tal como viene, sin el intento de luchar contra él. Renunciar a la resistencia es recuperar tu poder.</p>
+
+        <p>Cualquier resultado que traiga el día de mañana, serás capaz de sostenerlo. Tu verdadero hogar, tu vitalidad y tu energía están dentro de ti, y esos no se pueden embargar, dividir ni vender.</p>
+
+        <p>Fluye con lo que venga. Confío en tu fuerza.</p>
+
+        <div class="signature">
+            <p>Con cariño,</p>
+            <p class="signature-name">Reinaldo</p>
+        </div>
+    </main>
+
+</body>
+</html>
